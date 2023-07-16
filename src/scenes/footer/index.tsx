@@ -25,36 +25,36 @@ const Footer = () => {
                         <div className="w-[15%] mt-4 mr-2">
                             <img className=" w-8 h-8 " src={Facebook} alt="facebook" />
                         </div>
-                        <a className=" my-5" href="https://www.facebook.com/ali.alshater.12/" >facebook</a>
+                        <a className=" my-5 hover:text-primary-500" href="https://www.facebook.com/ali.alshater.12/" >facebook</a>
                     </div>
                     <div className=" flex">
                         <div className="w-[15%] mt-4 mr-2">
                             <img className=" w-8 h-8" src={Instagram} alt="instagram" />
                         </div>
-                        <a className=" my-5" href="https://www.instagram.com/ali.alshater/" >instagram</a>
+                        <a className=" my-5 hover:text-primary-500" href="https://www.instagram.com/ali.alshater/" >instagram</a>
                     </div>
                     <div className=" flex">
                         <div className="w-[15%] mt-4 mr-2">
                             <img className=" w-8 h-8" src={github} alt="github" />
                         </div>
-                        <a className=" my-5" href="https://github.com/alialshater77" >github</a>
+                        <a className=" my-5 hover:text-primary-500" href="https://github.com/alialshater77" >github</a>
                     </div>
                 </div>
-                <div>
+                <div className=" basis-1/4">
                     <h4 className=" font-bold">
                         Contact Us
                     </h4>
                     <div className=" flex">
-                        <div className="w-[15%] mt-4 mr-4">
-                            <img className=" w-10 h-8" src={mail} alt="mail" />
+                        <div className="w-[15%] mt-4 mr-2">
+                            <img className=" w-8 h-8 sm:w-8 " src={mail} alt="mail" />
                         </div>
-                        <p className=" my-5">alialshater7@gmail.com</p>
+                        <p className="my-5 ">alialshater7@gmail.com</p>
                     </div>
                     <div className=" flex">
                         <div className="w-[15%] mt-4 mr-2">
                             <img className=" w-8 h-8" src={Call} alt="call" />
                         </div>
-                        <p className=" my-5">+963993171809</p>
+                        <p className="my-5">+963993171809</p>
                     </div>
                     
                 </div>
